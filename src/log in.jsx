@@ -33,7 +33,7 @@ export default function LOG() {
               log in
               </button> 
             </form>
-            <img width={"55%"} src='/عربة التسوق.jpg' alt="عربة التسوق"/>
+            <img width={"55%"} src='/cart.jpg' alt="عربة التسوق"/>
         </div>
         </div>
     );
