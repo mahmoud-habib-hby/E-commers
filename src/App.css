@@ -1,0 +1,448 @@
+.contaner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.mide {
+  display: flex;
+  width: 55%;
+  height: 50%;
+  background-color: #001d32;
+  gap: 60px;
+  padding-left: 10px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 83px 18px var(--primary-light-dm);
+  img {
+    border-radius: 30px 20px 20px 30px;
+  }
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+/*******/
+.main {
+  height: fit-content;
+  background-position: center;
+  background-size: cover;
+  background:white;
+  .photos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+    p{
+      color: white;
+      font-size: 50px;
+    }
+    width: 100%;
+    height:60vh;
+    background:linear-gradient(rgba(0, 0, 0, 0.315) 50%,rgb(0, 0, 0)),url("../public/new/سوبر\ ماركت.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+.photo {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 3%;
+  div {
+  background-color:#fffffef0 ;
+    width: fit-content;
+    height: fit-content;
+    margin: 0px 50px 50px;
+    box-shadow:0px 0px 29px 0px #363636;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:black;
+    font-size: 30px;
+    font-weight: 700;
+    .Link{
+        color: black;
+        text-decoration: none;
+        padding: 10px;
+    }
+    img{
+        width: 250px;
+        height: 170px;
+        
+    }
+  }
+
+}
+.veg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 3%;
+  .vegPhoto{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 50px 50px;
+    align-items: center;
+  background-color:#fffffef0 ;
+  box-shadow:0px 0px 29px 0px #00880b;
+    
+    span{
+      font-size: 30px;
+      padding: 7px;
+    }
+    img{
+      width: 250px;
+      height: 160px;
+    }
+    .buy{
+    padding: 10px;
+      display: flex;
+      width: 100%;
+      justify-content: space-around;
+      input{
+      text-align: center;
+        border-radius: 10px;
+        border: 1px rgb(19, 19, 19) solid;
+      }
+    }
+  }  
+}
+.cart{
+  display:flex ;
+  flex-direction: column;
+  margin: 5% 10%;
+  .cartElement{
+    display: flex;
+    margin-bottom: 4%;
+    box-shadow:0px 0px 29px 0px #2b2b2b;
+    justify-content: space-around;
+    button{
+      margin: 15px 0px;
+    }
+    p{
+      margin: 20px ;
+      font-size: 25px;
+    }
+    span{
+      margin: 20px ;
+      font-size: 25px;
+    }
+  }
+}
+.Prtofilo{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 10%;
+  height: 70vh;
+  span{
+    border: 6px black solid;
+    border-radius: 50%;
+    margin: 30px 0px ;
+  }
+  p{
+    font-size: 5vh;
+  }
+}
+.contan {
+  display: flex;
+  width: 100%;
+  background-color:#085543; 
+  border-bottom: 5px black solid;
+  justify-content: space-between;
+  padding: 10px 40px ;
+  
+  input {
+    width: 40%;
+    height: 90%;
+  }
+  .Link {
+    color:white;
+    text-decoration: none;
+    font-size: 19px;
+    text-transform: capitalize;
+  }
+  p {
+    font-size: 20px;
+    color: white;
+    text-transform: capitalize;
+  }
+}
+
+.about{
+  background:linear-gradient(rgba(0, 0, 0, 0.315) 50%,rgb(0, 0, 0)),url("../public/new/سوبر\ ماركت.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .about-in{
+      background-color: rgba(195, 195, 195, 0.9);
+      padding: 10px;
+      border-radius: 40px;
+      width: 40%;
+      height: 30vh;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      font-size: 3vh;
+      justify-content: center;
+    }
+}
+@media (max-width: 1100px){
+
+  .about{
+    background:linear-gradient(rgba(0, 0, 0, 0.315) 50%,rgb(0, 0, 0)),url("../public/new/سوبر\ ماركت.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .about-in{
+        background-color: rgba(195, 195, 195, 0.9);
+        padding: 10px;
+        border-radius: 40px;
+        width: 70%;
+        height: 30vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        font-size: 3vh;
+        justify-content: center;
+      }
+  }
+  .contaner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .mide {
+    display: flex;
+    width: 100%;
+    margin: 0px 15%;
+    height: 50%;
+    background-color: #001d32;
+    gap: 60px;
+    padding-left: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 83px 18px var(--primary-light-dm);
+    img {
+      border-radius: 30px 20px 20px 30px;
+    }
+  }
+}
+
+@media (max-width: 800px){
+  .contaner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .mide {
+    display: flex;
+    width: 100%;
+    margin: 0px 10%;
+    height: 40%;
+    background-color: #001d32;
+    gap: 60px;
+    padding-left: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 83px 18px var(--primary-light-dm);
+    img {
+      border-radius: 30px 20px 20px 30px;
+    }
+  }
+  .contan {
+    display: flex;
+    width: 100%;
+    background-color:#085543; 
+    border-bottom: 5px black solid;
+    justify-content: space-between;
+    padding: 10px 10px ;
+    
+    input {
+      width: 20%;
+      height: 70%;
+    }
+    .Link {
+      color:white;
+      text-decoration: none;
+      font-size: 2.4vh;
+      text-transform: capitalize;
+    }
+    p {
+      font-size: 2.4vh;
+      color: white;
+      text-transform: capitalize;
+    }
+  }
+}
+@media (max-width: 600px){
+
+  .about{
+    background:linear-gradient(rgba(0, 0, 0, 0.315) 50%,rgb(0, 0, 0)),url("../public/new/سوبر\ ماركت.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .about-in{
+        background-color: rgba(195, 195, 195, 0.9);
+        padding: 10px;
+        border-radius: 40px;
+        width: 95%;
+        height: 30vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        font-size: 2.2vh;
+        justify-content: center;
+      }
+  }
+  .contaner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .mide {
+    display: flex;
+    width: 100%;
+    margin: 0px 6%;
+    height: 35%;
+    background-color: #001d32;
+    gap: 60px;
+    padding-left: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 83px 18px var(--primary-light-dm);
+    img {
+      border-radius: 30px 20px 20px 30px;
+    }}}
+@media (max-width: 400px){
+  .contaner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .mide {
+    display: flex;
+    width: 100%;
+    margin: 0px 1%;
+    height: 34%;
+    background-color: #001d32;
+    gap: 60px;
+    padding-left: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 83px 18px var(--primary-light-dm);
+    img {
+      border-radius: 30px 20px 20px 30px;
+    }
+  }
+  .cart{
+    display:flex ;
+    flex-direction: column;
+    margin: 5% 2%;
+    .cartElement{
+      display: flex;
+      margin-bottom: 4%;
+      box-shadow:0px 0px 29px 0px #2b2b2b;
+      justify-content: space-around;
+      button{
+        margin: 15px 0px;
+      }
+      p{
+        margin: 20px ;
+        font-size: 20px;
+      }
+      span{
+        margin: 20px ;
+        font-size: 20px;
+      }
+    }
+  }
+  .contan {
+    display: flex;
+    width: 100%;
+    background-color:#085543; 
+    border-bottom: 5px black solid;
+    justify-content: space-between;
+    padding: 10px 10px ;
+    
+    input {
+      width: 20%;
+      height: 70%;
+    }
+    .Link {
+      color:white;
+      text-decoration: none;
+      font-size: 2.2vh;
+      text-transform: capitalize;
+    }
+    p {
+      font-size: 2.4vh;
+      color: white;
+      text-transform: capitalize;
+    }
+  }
+}
+@media (max-width: 470px){
+  .contan {
+    display: flex;
+    width: 100%;
+    background-color:#085543; 
+    border-bottom: 5px black solid;
+    justify-content: space-between;
+    padding: 10px 10px ;
+    
+    input {
+      width: 20%;
+      height: 70%;
+    }
+    .Link {
+      color:white;
+      text-decoration: none;
+      font-size: 1.4vh;
+      text-transform: capitalize;
+      padding-top: 10px;
+    }
+    p {
+      font-size: 2vh;
+      color: white;
+      text-transform: capitalize;
+    }
+  }
+  .Prtofilo{
+    p{
+      font-size:2.4vh;
+    }
+  }
+  }
