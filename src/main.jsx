@@ -12,33 +12,33 @@ export default function MAIN() {
       <div >
       <div className="photo">
         <div className="vegetable">
-          <img src="/new/خضروات/خضروات.jpg" />
+          <img src={`${process.env.PUBLIC_URL}/new/خضروات/خضروات.jpg`} />
           <Link to="/vegetable" className="Link">
             vegetable
           </Link>
         </div>
         <div className="fruit">
-          <img src="/new/فاكهة/فاكهة.jpg" />
+          <img  src={`${process.env.PUBLIC_URL}/new/فاكهة/فاكهة.jpg`}/>
 
           <Link to="/fruit" className="Link">
             fruit
           </Link>
         </div>
         <div className="linut">
-          <img src="/new/بقوليات/البقوليات.jpg" />
+          <img src={`${process.env.PUBLIC_URL}/new/بقوليات/البقوليات.jpg`} />
 
           <Link to="/linut" className="Link">
             linut
           </Link>
         </div>
         <div className="milk">
-          <img src="/new/الالبان/الالبان.jpeg" />
+          <img src={`${process.env.PUBLIC_URL}/new/الالبان/الالبان.jpeg`}/>
           <Link to="/milk" className="Link">
             milk
           </Link>
         </div>
         <div className="sweet">
-          <img src="/new/حلويات/حلويات.jpg" />
+          <img src={`${process.env.PUBLIC_URL}/new/حلويات/حلويات.jpg`} />
           <Link to="/sweet" className="Link">
             sweet
           </Link>

@@ -18,7 +18,7 @@ const {add,arr}=useContext(Text)
         return(
   
   <div className="vegPhoto" style={{boxShadow:"0px 0px 29px #4c3902"}}>
-                <img  src={e.photo} />
+                <img src={`${process.env.PUBLIC_URL}${e.photo}`} alt="product" />
                 <span>{e.name}</span>
                 <span>price={e.price}$</span>
                 

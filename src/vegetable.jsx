@@ -20,7 +20,7 @@ const {add,arr}=useContext(Text)
     let show=Veg.map((e)=>{
         return(
             <div className="vegPhoto">
-                <img  src={e.photo} />
+                <img src={`${process.env.PUBLIC_URL}${e.photo}`} alt="product" />
                 <span>{e.name}</span>
                 <span>price={e.price}$</span>
                 <div className="buy">

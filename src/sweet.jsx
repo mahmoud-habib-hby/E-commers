@@ -16,7 +16,7 @@ const {add,arr}=useContext(Text)
     let show=Veg.map((e)=>{
         return(
             <div className="vegPhoto" style={{boxShadow:"0px 0px 29px rgb(250, 187, 0)"}}>
-                <img  src={e.photo} />
+                <img src={`${process.env.PUBLIC_URL}${e.photo}`} alt="product" />
                 <span>{e.name}</span>
                 <span>price={e.price}$</span>
                 <div className="buy">
