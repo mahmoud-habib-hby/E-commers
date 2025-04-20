@@ -7,11 +7,11 @@ import { Text } from "./provider";
 export default function Veg(){
 const {add,arr}=useContext(Text)
     let Veg=[
-        {name:"بتنجان",photo:"new/خضروات/بتنجان.png",price:"200" },
-        {name:"جزر",photo:"new/خضروات/جزر.png",price:"100"},
-        {name:"خيار",photo:"new/خضروات/خيار.png",price:"240"},
-        {name:"طماطم",photo:"new/خضروات/طما.png",price:"140"},
-        {name:"فلفل",photo:"new/خضروات/فلفل .png",price:"120"}
+        {name:"بتنجان",photo:"/new/خضروات/بتنجان.png",price:"200" },
+        {name:"جزر",photo:"/new/خضروات/جزر.png",price:"100"},
+        {name:"خيار",photo:"/new/خضروات/خيار.png",price:"240"},
+        {name:"طماطم",photo:"/new/خضروات/طما.png",price:"140"},
+        {name:"فلفل",photo:"/new/خضروات/فلفل .png",price:"120"}
     ]
     useEffect(()=>{
 

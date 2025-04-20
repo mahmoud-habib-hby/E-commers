@@ -8,10 +8,10 @@ export default function Poq(){
 const {add,arr}=useContext(Text)
 
     let Veg=[
-        {name:"البازلاء",photo:"new/بقوليات/البازلاء.jpeg" ,price:"200" },
-        {name:"الفول",photo:"new/بقوليات/الفول.png",price:"340" },
-        {name:"حمص",photo:"new/بقوليات/حمص.png" ,price:"150"},
-        {name:"عدس",photo:"new/بقوليات/عدس.png",price:"40" }
+        {name:"البازلاء",photo:"/new/بقوليات/البازلاء.jpeg" ,price:"200" },
+        {name:"الفول",photo:"/new/بقوليات/الفول.png",price:"340" },
+        {name:"حمص",photo:"/new/بقوليات/حمص.png" ,price:"150"},
+        {name:"عدس",photo:"/new/بقوليات/عدس.png",price:"40" }
 
     ]
     let show=Veg.map((e)=>{
