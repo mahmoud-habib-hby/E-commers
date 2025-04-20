@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/E-commers/static/css/main.1b4a7a66.css",
-    "main.js": "/E-commers/static/js/main.ce11523c.js",
+    "main.js": "/E-commers/static/js/main.0978ab95.js",
     "static/media/سوبر ماركت.jpg": "/E-commers/static/media/سوبر ماركت.ee45a4d0ba08c6c4ec78.jpg",
     "index.html": "/E-commers/index.html",
     "main.1b4a7a66.css.map": "/E-commers/static/css/main.1b4a7a66.css.map",
-    "main.ce11523c.js.map": "/E-commers/static/js/main.ce11523c.js.map"
+    "main.0978ab95.js.map": "/E-commers/static/js/main.0978ab95.js.map"
   },
   "entrypoints": [
     "static/css/main.1b4a7a66.css",
-    "static/js/main.ce11523c.js"
+    "static/js/main.0978ab95.js"
   ]
 }
